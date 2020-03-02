@@ -1,0 +1,27 @@
+blockquote{
+    color:gray;
+}
+ul~p{
+    font-size: 26px;
+}
+ul>li+li+li+li a{
+    background-color: blue;
+}
+a[href^="http"] { 
+    color: red;
+   }
+h3:first-child{
+    color: pink;
+}
+#greycol{
+    color: gray;
+}
+.yellow{
+    color: yellow;
+}
+p:nth-last-of-type(2) {
+    color: green;
+}
+div div p{
+    color: red;
+}
